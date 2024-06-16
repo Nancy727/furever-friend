@@ -1,0 +1,90 @@
+
+h3{
+    font-style: bold;
+    font-size: 35px;
+    font-family:cursive;
+    background-color: #FF7D29;
+    color: white;
+    padding-bottom: 0.1px;
+    margin: 0;
+}
+.topic{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 0px;
+    text-align: center;
+}
+button{
+    border-radius: 5px;
+    margin:15px;
+    height: 40px;
+    width: 100px;
+}
+nav{
+    padding-left:5px;
+    background-color:#FFBF78;
+    border: 5px 5px solid #FF9F66;
+}
+.heading{
+    font-size: 30px;
+    color: #ffb387;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-left:80px;
+}
+.para{
+    font-size: 15px;
+    padding-left:80px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+footer{
+    color: rgb(137, 136, 136);
+    text-align: center;
+}
+div{
+    padding-left: 250px;
+}
+button:hover{
+    font-weight: bold;
+    box-shadow: 5px 5px #FF7D29;
+}
+
+.puppy{
+    height:250px;
+    width: 350px;
+    position: absolute;
+    top: 1650px;
+    left:15vh;
+    object-fit:cover;
+}
+.card {
+    height: 475px;
+    width: 400px;
+    border: 2px solid black;
+    border-radius: 25px;
+    padding: 3px;
+    margin: 10px;
+    display: inline-block;
+}
+img {
+        width: 100%;
+        
+        border-radius: 25px;
+}       
+span {
+     color: #9d6f24;
+} 
+ #pets {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .card:hover{
+    box-shadow: 0 12px 24px rgba(167, 166, 166, 0.5);
+    transform: scale(1.05);
+  }
+  .icon {
+    height: 100px;
+    width: 100px; 
+    vertical-align: middle; 
+    display: inline-block;
+}
